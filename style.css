@@ -1,0 +1,82 @@
+body {
+  font-family: cursive, sans-serif;
+  font-size: 10px;
+}
+
+/* Header style */
+
+header {
+  padding: 20px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 3em;
+}
+
+.header-container {
+  width: 90%;
+  /* background-color: lightblue; */
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-img {
+  width: 40%;
+  margin-right: 10px;
+}
+
+.logo-name {
+  font-size: 2.8em;
+  font-weight: bold;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  padding: 5px 20px;
+  font-size: 1.8em;
+}
+
+.active {
+  color: rgb(69, 69, 227);
+}
+
+.login {
+  border: 1px solid rgb(69, 69, 227);
+  border-radius: 25px;
+  color:rgb(69, 69, 227);
+}
+
+
+/* Hero section styling */
+
+.hero {
+  background-image: url(./images/home/hero.svg);
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 50px);
+  width: 90vw;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: bold;
+  top: 50px;
+}
