@@ -78,6 +78,8 @@ nav a {
 
 /* Hero section styling */
 
+.hero {margin-bottom: 3em}
+
 .background-img {
   position: relative;
   left: 10%;
@@ -186,3 +188,42 @@ nav a {
   cursor: pointer;
   margin-left: 8em;
 }
+
+/* Countries section styling */
+
+.countries-sec {
+  border: 1px solid;
+  margin-bottom: 4em
+}
+
+
+h2 {
+  font-size: 4em;
+  font-weight: 600;
+  text-align: center;
+  border: 1px solid;
+}
+
+.countries {
+  display: flex;
+  gap: 3em;
+  align-items: center;
+  justify-content: center;
+}
+
+.country {
+  position: relative;
+}
+
+/* .country img {
+  position: relative;
+} */
+
+.country p {
+  position: absolute;
+  top: 8%;
+  left: 40%;
+  font-size: 2em;
+  font-weight: 600;
+}
+
