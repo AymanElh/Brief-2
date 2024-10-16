@@ -31,7 +31,11 @@
       <!--The first section is for the hero-->
       <section class="hero">
         <div class="background">
-          <img class="background-img" src="images/home/hero.svg" alt="House image" />
+          <img
+            class="background-img"
+            src="images/home/hero.svg"
+            alt="House image"
+          />
           <div class="content">
             <div class="text-content">
               <h1>Easy way to find a perfect property</h1>
@@ -42,15 +46,16 @@
             </div>
 
             <div class="btn-container">
-              <button class="menu-item active">Rent</button>
-              <button class="menu-item">Buy</button>
-              <button class="menu-item">Sell</button>
+              <button class="menu-item active">RENT</button>
+              <button class="menu-item">BUY</button>
+              <button class="menu-item">SELL</button>
             </div>
+
             <div class="search-fields">
               <div class="search-item">
                 <label for="locaition">Location</label>
-                <select name="location" id="locaition">
-                  <option value="">Select Your city</option>
+                <select name="location" id="location">
+                  <option value="" disabled>Select Your city</option>
                   <option value="london">London</option>
                   <option value="new york">New York</option>
                   <option value="paris">paris</option>
@@ -60,7 +65,7 @@
               <div class="search-item">
                 <label for="property-type">Property Type</label>
                 <select name="property type" id="property-type">
-                  <option value="">Choose property type</option>
+                  <option value="" disabled>Choose property type</option>
                   <option value="appartment">Appartment</option>
                   <option value="house">House</option>
                 </select>
@@ -69,16 +74,19 @@
               <div class="search-item">
                 <label for="price-range">Price Range</label>
                 <select name="price range" id="price-range">
-                  <option value="">Choose price range</option>
+                  <option value="" disabled>Choose price range</option>
+                  <option value="100-200" >100$ - 200$</option>
+                  <option value="200-500" >200$ - 500$</option>
+
                 </select>
               </div>
-              <button class="search-btn">Search</button>
+              <button class="search-btn"><img src="images/home/search.svg" alt="search button"></button>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="countries">
+      <!-- <section class="countries">
         <h2>We available in many well-known countries</h2>
         <img src="america.svg" alt="" />
         <img src="spain.svg" alt="" />
@@ -86,7 +94,7 @@
         <img src="london.svg" alt="" />
       </section>
       <section class="recently-added"></section>
-      <section class="contact-us"></section>
+      <section class="contact-us"></section> -->
     </main>
 
     <footer class="footer-content"></footer>
