@@ -386,9 +386,12 @@ h3 {
 /* Footer Styling */
 
 footer {
+  height: 20vh;
   padding: 20px;
   display: flex;
   justify-content: space-around;
+  align-items: start;
+  border-top: 1px solid rgb(220, 220, 220);
 }
 
 .first-side {
