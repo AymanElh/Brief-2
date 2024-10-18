@@ -22,13 +22,13 @@ p {
   width: 50vw;
 }
 
-form {
+.contact-form {
   /* border: 1px solid; */
   padding: 1.5em 3em;
   margin-bottom: 3em;
 }
 
-form label {
+.contact-form label {
   font-size: 1.8em;
 }
 
@@ -39,7 +39,7 @@ form label {
   gap: 4em
 }
 
-input[type=text], input[type=email], select {
+.contact-form input[type=text], input[type=email], select {
   width: 100%;
   padding: 20px;
   border: 1px solid #ccc;
@@ -60,4 +60,27 @@ textarea {
   font-size: 1.6em;
   border: 1px solid #ccc;
   box-sizing: border-box;
+}
+
+.send-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.form-container button {
+  padding: 12px 23px;
+  font-size: 2.5em;
+  background-color: #2EA9F0;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  color: #2EA9F0;
+  background-color: white;
+  border: 1px solid #2EA9F0;
 }
