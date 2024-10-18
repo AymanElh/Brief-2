@@ -1,8 +1,8 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 
 section {
@@ -30,74 +30,75 @@ section {
 }
 
 .blog-container {
-  border: 1px solid;
-  border-radius: 8px;
+  width: 70vw;
+  height: 40vh;
+  background-color: #DAF4FD;
+  border-radius: 10px;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
-  background-color: #e0f7f7;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  margin-bottom: 3em;
+  margin-bottom: 5em;
+
 }
 
-/* .img-container {
-  width: 20%;
-  height: auto;
-  border: 1px solid red;
-  padding: 10px;
-} */
 
-.blog-container img {
-  width: 25%;
+.blog-img {
+  width: 31%;
   height: auto;
   margin: 20px;
   object-fit: cover
 }
 
-.blog-info {  
+.blog-content {  
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: start;
-  gap: 1.8em;
-  /* padding: 20px; */
+  gap: 1.7em;
+  margin-right: 10px;
+  padding: 7px;
 }
 
-.blog-info h4 {
-  font-size: 1.8em;
+.blog-title {
+  margin: 0;
+  font-size: 2em;
+  font-weight: 700;
+  color: #528DCB;
 }
 
-.posted-by {
-  font-size: 1.4em;
+.blog-author {
+  font-size: 1.7em;
   font-weight: 500;
+  margin: 0;
+  padding: 0;
 }
 
-.posted-by span {
+.blog-author span {
   color: #a5a5a5
 }
 
-.description {
-  width: 70%;
-  font-size: 1.2em;
-  font-weight: 400;
-  margin-right: 10px;
-  line-height: 1.6;
-  color: #333;
-}
-
-.button {
-  width: 90%;
-  display: flex;
-  justify-content: end;
-}
-
-.button button {
-  padding: 8px 13px;
+.blog-description {
+  width: 80%;
   font-size: 1.4em;
   font-weight: 400;
-  background-color: #2EA9F0;
+  font-style: italic;
+  margin: 0;
+}
+
+.blog-content button {
+  padding: 9px 13px;
   border: none;
-  border-radius: 10px;
+  border-radius: 7px;
+  background-color: #2EA9F0;
+  font-size: 1.6em;
+  font-weight: 500;
   color: white;
-  cursor: pointer
+  margin-left: 80%;
+  margin-bottom: 1%;
+  cursor: pointer;
+}
+
+.blog-content button:hover {
+  color: #2EA9F0;
+  background-color: white;
+  border: 1px solid #2EA9F0;
 }
