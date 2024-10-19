@@ -17,7 +17,7 @@ This website is based on mockups created in **Figma** and developed with **Html*
 3. [Thechnology](#technology)
 4. [Usage](#usage)
 
-## Brief Overview
+## Project Overview
 The goal of this brief is learn how to use Figma and learn the basics of CSS (margin, padding, colors, ...) also learn technics of layouts like flexbox and CSS grid to implement this project, as the first step is implement figma moquets after that coding them using Html and CSS.
 
 ## Pages description 
