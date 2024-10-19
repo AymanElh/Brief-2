@@ -39,7 +39,7 @@ The goal of this brief is learn how to use Figma and learn the basics of CSS (ma
 ## Technology Stack
 
 - **HTML5**: Structing the website pages.
--**CSS3**: Styling and layout for all pages.
+- **CSS3**: Styling and layout for all pages.
 
 ## Project Time line
 
