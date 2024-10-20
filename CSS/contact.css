@@ -18,14 +18,17 @@ p {
 }
 
 .form-container {
-  margin: 0 auto;
+  margin: 2em auto;
   width: 50vw;
 }
 
 .contact-form {
   /* border: 1px solid; */
   padding: 1.5em 3em;
-  margin-bottom: 3em;
+  /* margin-bottom: 3em; */
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
 }
 
 .contact-form label {
